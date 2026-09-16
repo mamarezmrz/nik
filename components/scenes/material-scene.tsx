@@ -1,0 +1,2 @@
+import { type Locale } from "@/lib/content";
+export default function MaterialScene({ locale }: { locale: Locale }) { const fa = locale === "fa"; return <section id="material" className="corporate-scene material-scene"><div className="material-shape"/><div className="material-copy"><span className="eyebrow">{fa ? "۰۳ / ماده" : "03 / MATERIAL"}</span><h2>{fa ? "مقاومت، درون ساختار است." : "Strength is built in."}</h2><p>{fa ? "لایه‌به‌لایه، ماده به راهکاری قابل اعتماد تبدیل می‌شود." : "Layer by layer, material becomes a system you can trust."}</p></div></section>; }

@@ -1,0 +1,2 @@
+import EnergyCore from "../visual/energy-core"; import MovingGrid from "../visual/moving-grid"; import ParticleField from "../visual/particle-field";
+export default function IgnitionScene() { return <section id="ignition" className="ignition-stage scene-frame"><MovingGrid/><ParticleField/><div className="ignition-content"><p className="eyebrow">Scene 01 / Ignition</p><h1>ENTER<br/><span>THE</span> SIGNAL</h1><p className="scene-lead">Scroll is the camera. Motion is the language.</p></div><EnergyCore/><div className="scene-wash"/></section>; }

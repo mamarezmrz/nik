@@ -1,0 +1,1 @@
+export default function EnergyCore() { return <div className="energy-core" aria-hidden="true"><span className="core-glow"/><span className="core-ring core-ring-a"/><span className="core-ring core-ring-b"/><span className="core-ring core-ring-c"/><span className="core-dot"/></div>; }

@@ -1,0 +1,1 @@
+export default function ParticleField() { return <div className="particle-field" aria-hidden="true">{Array.from({ length: 18 }, (_, i) => <i key={i} style={{ "--i": i } as React.CSSProperties}/>)}</div>; }
